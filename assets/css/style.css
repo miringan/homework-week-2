@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This selector sets the body's background color. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* This selector sets the color and text decoration of all anchor tags. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This selector sets the font size of all paragraph tags. */
+p {
+    font-size: 16px;
+}
+
+.headerStyle {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This selector affects the nav elements in the .headerStyle class. */
+.headerStyle nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This selector affects h1 elements in the .headerStyle class. */
+.headerStyle h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This selector affects ul elements within nav elements that are within the .headerStyle class. */
+.headerStyle nav ul {
+    list-style-type: none;
+}
+
+/* This selector affects li elements within ul elements, within nav elements, that are within the .headerStyle class. */
+.headerStyle nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This class is formats the header background image */
+.headerImage {
+    height: 400px; 
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/withoutAdoubt_sunsetTavern_090519-7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* This set the flexboxes for each section that calls it out. */
+.sectionFlexBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactFlexBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.projectOneImage {
+    height: 300px; 
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../images/withoutAdoubt_sunsetTavern_090519-7.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
+
+.projectTwoImage {
+    height: 150px; 
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../images/withoutAdoubt_sunsetTavern_090519-7.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
+
+.projectThreeImage {
+    height: 150px; 
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../images/withoutAdoubt_sunsetTavern_090519-7.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
