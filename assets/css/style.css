@@ -20,6 +20,7 @@ p {
     font-size: 16px;
 }
 
+/* This class stles the header. */
 .headerStyle {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -66,9 +67,15 @@ p {
 /* This set the flexboxes for each section that calls it out. */
 .sectionFlexBox {
     display: flex;
-    flex-direction: row;
 }
 
+/* This sets the flexbox for sub sections within the previous work section. */
+.projectSection {
+    display: flex;
+    flex-direction: column;
+}
+
+/* This sets the flexbox for the contact me section. */
 .contactFlexBox {
     display: flex;
     flex-direction: row;
@@ -77,6 +84,7 @@ p {
 
 }
 
+/* This creates the background image for project one in previous work. */
 .projectOneImage {
     height: 300px; 
     width: 100%;
@@ -84,9 +92,9 @@ p {
     background-image: url("../images/withoutAdoubt_sunsetTavern_090519-7.jpg");
     background-size: cover;
     background-position: center;
-    align-items: flex-end;
 }
 
+/* This creates the background image for project two in previous work. */
 .projectTwoImage {
     height: 150px; 
     width: 100%;
@@ -94,9 +102,9 @@ p {
     background-image: url("../images/withoutAdoubt_sunsetTavern_090519-7.jpg");
     background-size: cover;
     background-position: center;
-    align-items: flex-end;
 }
 
+/* This creates the background image for projectr three in previous work. */
 .projectThreeImage {
     height: 150px; 
     width: 100%;
@@ -104,5 +112,28 @@ p {
     background-image: url("../images/withoutAdoubt_sunsetTavern_090519-7.jpg");
     background-size: cover;
     background-position: center;
-    align-items: flex-end;
+}
+
+/* This establishes flexbox formatting for the first project in previous work. */
+.firstProjectCard {
+    flex: 1 0 1200px;
+    padding: 10px;
+    text-align: left;
+    align-items: end;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px;
+    color: white;
+}
+
+/* This establishes flexbox formatting in certain project cards. */
+.projectCard {
+    flex: 1 0 150px;
+    padding: 10px;
+    text-align: left;
+    align-items: end;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px;
+    color: white;
 }
